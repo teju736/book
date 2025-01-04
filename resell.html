@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>resell</title>
+    <link rel="stylesheet" href="resell.css">
+</head>
+<body>
+
+</div>
+    <div id="top1">
+        <div id="top">
+            <a id="yoi" href="front.html">Book Tingle</a>
+        </div>
+    </div>
+    
+    <header>
+        <h1>Resell Your Books</h1>
+        <p>List your books here and find interested buyers!</p>
+    </header>
+
+    <section class="resell-form">
+        <h2>List a Book for Sale</h2>
+        <form action="#" method="post">
+            <label for="title">Book Title:</label>
+            <input type="text" id="title" name="title" required>
+
+            <label for="author">Author:</label>
+            <input type="text" id="author" name="author" required>
+
+            <label for="condition">Condition:</label>
+            <select id="condition" name="condition">
+                <option value="new">New</option>
+                <option value="like-new">Like New</option>
+                <option value="good">Good</option>
+                <option value="fair">Fair</option>
+                <option value="poor">Poor</option>
+            </select>
+
+            <label for="price">Price rs:</label>
+            <input type="number" id="price" name="price" required min="0" step="0.01">
+
+            <label for="description">Description:</label>
+            <textarea id="description" name="description" rows="4"></textarea>
+
+            <button type="submit">List Book</button>
+        </form>
+    </section>
+
+    <section class="book-list">
+        <h2>Books for Sale</h2>
+        <div class="book-card">
+            <h3>Book Title Example</h3>
+            <p><strong>Author:</strong> Author Name</p>
+            <p><strong>Condition:</strong> Like New</p>
+            <p><strong>Price:</strong> Rs100.00</p>
+            <button onclick="showContactNumber()">Contact Seller</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Book Store. All rights reserved.</p>
+    </footer>
+    
+</body>
+<script>
+    function showContactNumber() {
+        alert("Contact Seller at: +91-89509*****");
+    }
+    
+    var modal = document.getElementById("listBookModal");
+    var openModalBtn = document.getElementById("openModalBtn");
+    var closeModal = document.getElementsByClassName("close")[0];
+
+    
+    openModalBtn.onclick = function() {
+        modal.style.display = "block";
+    }
+    closeModal.onclick = function() {
+        modal.style.display = "none";
+    }
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+</script>
+</html>

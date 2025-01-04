@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookWorm - Book Genres</title>
+    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: rgb(213, 189, 175);
+        }
+        .genre-card {
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+        .genre-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+        .genre-icon {
+            font-size: 3rem;
+            color: #6c757d;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href="front.html">
+                <strong>Booktingle</strong> 
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                
+            </div>
+        </div>
+    </nav>
+
+    <div class="container py-5">
+        <h1 class="text-center mb-5">Book Genres</h1>
+        
+        <div class="row g-4">
+           
+            <div class="col-md-4">
+                <div class="card genre-card text-center p-4">
+                    <div class="genre-icon">📖</div>
+                    <h3 class="card-title">Fiction</h3>
+                    <p class="text-muted">Novels, Stories & Imagination</p>
+                    <ul class="list-unstyled">
+                        <li>Mystery</li>
+                        <li>Science Fiction</li>
+                        <li>Fantasy</li>
+                        <li>Historical Fiction</li>
+                    </ul>
+                    
+                </div>
+            </div>
+
+            
+            <div class="col-md-4">
+                <div class="card genre-card text-center p-4">
+                    <div class="genre-icon">📚</div>
+                    <h3 class="card-title">Non-Fiction</h3>
+                    <p class="text-muted">Real Stories & Knowledge</p>
+                    <ul class="list-unstyled">
+                        <li>Biography</li>
+                        <li>History</li>
+                        <li>Science</li>
+                        <li>Self-Help</li>
+                    </ul>
+                   
+                </div>
+            </div>
+
+           
+            <div class="col-md-4">
+                <div class="card genre-card text-center p-4">
+                    <div class="genre-icon">📓</div>
+                    <h3 class="card-title">Academic</h3>
+                    <p class="text-muted">Study & Professional Books</p>
+                    <ul class="list-unstyled">
+                        <li>Textbooks</li>
+                        <li>Research</li>
+                        <li>Professional Development</li>
+                        <li>Reference</li>
+                    </ul>
+                    
+                </div>
+            </div>
+
+           
+            <div class="col-md-4">
+                <div class="card genre-card text-center p-4">
+                    <div class="genre-icon">🧸</div>
+                    <h3 class="card-title">Children's Books</h3>
+                    <p class="text-muted">Stories for Young Readers</p>
+                    <ul class="list-unstyled">
+                        <li>Picture Books</li>
+                        <li>Young Adult</li>
+                        <li>Educational</li>
+                        <li>Fairy Tales</li>
+                    </ul>
+                    
+                </div>
+            </div>
+
+           
+            <div class="col-md-4">
+                <div class="card genre-card text-center p-4">
+                    <div class="genre-icon">✍️</div>
+                    <h3 class="card-title">Poetry</h3>
+                    <p class="text-muted">Lyrical & Expressive Writing</p>
+                    <ul class="list-unstyled">
+                        <li>Contemporary</li>
+                        <li>Classic</li>
+                        <li>International</li>
+                        <li>Spoken Word</li>
+                    </ul>
+                    
+                </div>
+            </div>
+
+
+            <div class="col-md-4">
+                <div class="card genre-card text-center p-4">
+                    <div class="genre-icon">🎨</div>
+                    <h3 class="card-title">Art & Photography</h3>
+                    <p class="text-muted">Visual Storytelling</p>
+                    <ul class="list-unstyled">
+                        <li>Art Books</li>
+                        <li>Photography</li>
+                        <li>Design</li>
+                        <li>Architecture</li>
+                    </ul>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-light py-4 mt-5">
+        <div class="container text-center">
+            <p class="mb-0">© 2024 Booktingle. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.6/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.min.js"></script>
+</body>
+</html>
