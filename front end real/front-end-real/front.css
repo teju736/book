@@ -1,0 +1,282 @@
+*{margin: 0;
+}
+#top{
+    
+    text-align: center;
+    background-color: rgb(213, 189, 175);
+    width: 100%;
+    height: 40px;
+    padding-top: 20px;
+    font-size: 20px;
+    
+ 
+}
+#yoi{
+    background-color: rgb(213, 189, 175);
+}
+#top:hover{ animation: example 2s;
+    animation-iteration-count: infinite;
+
+}
+#box2{
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    transition-property: all;
+    background-color: rgb(237, 237, 233);
+    transition-duration: 5 sec;
+}
+#container{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+   
+    
+}
+input[type=text] {width: 500px;
+    zoom: 1.5;
+    display: inline;
+}
+
+.button{
+    background-color: white;
+    border: none;
+
+}
+#box1{
+    font-size: 35px;  
+}
+#box2{
+    text-align: center;
+    width: 800px;
+}
+ul{
+    
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+    background-color: rgb(245, 235, 224);
+}
+#fix{
+   position: sticky;
+   top: 2px;
+   z-index: 89;
+  
+}
+li a:hover {
+    background-color: white;
+  }
+#yo{
+    border-top: 1px dashed;
+}
+#top1{
+    
+    width: 100%;
+}
+#main{
+   background-color: white;
+    width: 100%;
+    height: 500px;
+    display: flex;
+   justify-content: space-around;
+}
+#box11{
+    background-image: url("horro.jpg");
+    background-size: cover;
+    height: 490px;
+    width: 19%;
+}
+#box11:hover{
+    transition: all;
+    transition-duration: 1s;
+    transform: scale(1.1);
+    z-index: 2;
+}
+#box12{
+    background-image: url("The-Girl-Who-Drank-the-Moon.webp");
+    background-size: cover;
+    height: 490px;
+    width: 19%;
+}
+#box12:hover{
+    transition: all;
+    transition-duration: 1s;
+    transform: scale(1.1);
+    z-index: 2;
+}
+#box13{
+    background-image: url("kid.jpg");
+    background-size: cover;
+    height: 490px;
+    width: 19%;
+}
+#box13:hover{
+    transition: all;
+    transition-duration: 1s;
+    transform: scale(1.1);
+    z-index: 2;
+}
+#box14{
+    background-image: url("harry.jpg");
+    background-size: cover;
+    height: 490px;
+    width: 19%;
+}
+#box14:hover{
+    transition: all;
+    transition-duration: 1s;
+    transform: scale(1.1);
+    z-index: 2;
+}
+#box15{
+    background-image: url("cruella.jpg");
+    background-size: cover;
+    height: 490px;
+    width: 19%;
+}
+#box15:hover{
+    transition: all;
+    transition-duration: 1s;
+    transform: scale(1.1);
+    z-index: 2;
+}
+#second{
+    background-color: rgb(245, 235, 224);
+   padding-top: 20px;
+   width: 100%;
+   height: 85px;
+   display: flex;
+   justify-content: space-evenly;
+}
+i{
+    height: 40px;
+    font-size: 40px;
+}
+i:hover{
+    background-color:white;
+}
+#box21{
+    background-color: black;
+    background-image: url("Copy_of_Decorate_your_home_with_Coffee_Table_Books_3.jpg");
+    background-size: cover;
+    width: 20%;
+    height: 300px;
+    border-radius: 5%;
+}
+#box22{
+    background-color: black;
+    background-image: url("Copy_of_Decorate_your_home_with_Coffee_Table_Books_1.jpg");
+    background-size: cover;
+    width: 20%;
+    height: 300px;
+    border-radius: 5%;
+}
+#box23{
+    background-color: black;
+    background-image: url("Copy_of_Decorate_your_home_with_Coffee_Table_Books.jpg");
+    background-size: cover;
+    width: 20%;
+    height: 300px;
+    border-radius: 5%;
+}
+#box24{
+    background-color: black;
+    background-image: url("Copy_of_Decorate_your_home_with_Coffee_Table_Books_2.jpg");
+    background-size: cover;
+    width: 20%;
+    height: 300px;
+    border-radius: 5%;
+}
+#three{
+    display: flex;
+justify-content: space-around;
+padding-right: 20px;
+padding-left: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+#exp{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#last{
+    width: 100%;
+    height: 310px;
+    display: flex;
+    background-color: rgb(245, 235, 224);
+    padding-top: 30px;
+}
+#l1{
+    width: 30%;
+    font-size: 20px;
+    padding-left: 56px;
+}
+#ABOUT{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#in{
+    font-family: broadway;
+}
+#yooo{
+    width: 70%;
+    text-align: center;
+    padding-top: 130px;
+    font-size: 40px;
+    text-decoration: underline overline
+    
+}
+#box21:hover{
+    transition: all;
+    transition-duration: 1s;
+    transform: scale(1.04);
+    z-index: 2;
+   
+}
+#box22:hover{
+    transition: all;
+    transition-duration: 1s;
+    transform: scale(1.04);
+    z-index: 2;
+   
+}
+#box23:hover{
+    transition: all;
+    transition-duration: 1s;
+    transform: scale(1.04);
+    z-index: 2;
+   
+}
+#box24:hover{
+    transition: all;
+    transition-duration: 1s;
+    transform: scale(1.04);
+    z-index: 2;
+   
+}
+@keyframes example{
+    from {background-color: rgb(245, 235, 224);}
+    to {background-color: rgb(213, 189, 175);}
+    from{font-size: 20px;}
+    to{font-size: 30px;}
+  }
+
+
+
+
+
+
+
+
+
