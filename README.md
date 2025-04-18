@@ -1,0 +1,1 @@
+An interactive and responsive online bookstore website built using HTML, CSS, and JavaScript. This project simulates a simple e-commerce platform where users can browse books, view details, add books to a cart, and manage their selections.
