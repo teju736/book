@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Reviews - ReadReview</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+    <style>
+        .hero-section {
+            background: linear-gradient(rgb(227, 213, 202), rgba(213, 189, 175)), url('/api/placeholder/1200/400');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 100px 0;
+        }
+        .book-card {
+            transition: transform 0.3s ease;
+        }
+        .book-card:hover {
+            transform: translateY(-5px);
+        }
+        .rating {
+            color: #ffc107;
+        }
+    </style>
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="front.html"><i class="fas fa-book-reader me-2"></i>Book Tingle</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    
+    <section class="hero-section text-center">
+        <div class="container">
+            <h1 class="display-4 fw-bold">Discover Your Next Favorite Book</h1>
+            <p class="lead">Read honest reviews from our community of book lovers</p>
+            <div class="input-group mx-auto mt-4" style="max-width: 600px;">
+                <input type="text" class="form-control" placeholder="Search for books or reviews...">
+                <button class="btn btn-primary" type="button"><i class="fas fa-search"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5">
+        <div class="container">
+            <div class="row g-4">
+                
+                <div class="col-md-6 col-lg-4"style="cursor: pointer;">
+                    <div class="card book-card h-100">
+                        <img src="https://m.media-amazon.com/images/I/71din4TLubL._SY466_.jpg" class="card-img-top" alt="Book Cover">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <h5 class="card-title mb-0">Deep Work</h5>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                            <h6 class="text-muted">By Cal Newport</h6>
+                            <p class="card-text">I would describe this book as life changing book. My work habits (Professional & Personal) all started to change after reading this book. It is really astonishing to think that how our mind is a greatest treasure we have and how it can be used as a focussed machine to achieve what we desire.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="col-md-6 col-lg-4">
+                    <div class="card book-card h-100" style="cursor: pointer;">
+                        <img src="https://m.media-amazon.com/images/I/91XPz99-CcL._SY466_.jpg" class="card-img-top" alt="Book Cover">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <h5 class="card-title mb-0">Not Her Daughter</h5>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                            <h6 class="text-muted">By Rea Frey</h6>
+                            <p class="card-text">As soon as I read the description of this novel, I knew it was one I had to read. I was pretty sure that I was going to love it.
+
+                                I was right.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4"style="cursor: pointer;">
+                    <div class="card book-card h-100">
+                        <img src="https://m.media-amazon.com/images/I/81OfxUIuhvL._SY466_.jpg" class="card-img-top" alt="Book Cover">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <h5 class="card-title mb-0">Small Fry</h5>
+                                <div class="rating">
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                            </div>
+                            <h6 class="text-muted">By David Baddiel </h6>
+                            <p class="card-text">This was an amazing book . I loved reading it </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                            </div>
+    </footer>
+    <footer>
+        <p>&copy; 2024 Book Store. All rights reserved.</p>
+    </footer>
+</body>
+</html>

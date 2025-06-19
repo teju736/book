@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="cart.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <h1><a href="front.html">Book Tingle</a></h1>
+        </div>
+    </header>
+
+    <main>
+        <div class="cart-container">
+        
+            <div class="cart-items">
+                <h2>Your Cart</h2>
+                <div class="cart-item">
+                    <div class="item-image">
+                        <img src="horro.jpg" alt="Book Image">
+                    </div>
+                    <div class="item-details">
+                        <h3>Book Title</h3>
+                        <p><strong>Author: Tom Coleman</p>
+                            <p><strong>Price:</strong>RS.459</p>
+                        <div class="quantity">
+                            <button class="btn-decrease">-</button>
+                            <input type="number" value="1" min="1">
+                            <button class="btn-increase">+</button>
+                        </div>
+                    </div>
+                    <div class="item-remove">
+                        <button class="remove-btn"><i class="fa-solid fa-trash"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="cart-summary">
+                <h2>Summary</h2>
+                <div class="summary-item">
+                    <p>Subtotal</p>
+                    <p>RS.459</p>
+                </div>
+                <div class="summary-item">
+                    <p>Shipping</p>
+                    <p>RS.30</p>
+                </div>
+                <div class="summary-item total">
+                    <p><strong>Total</strong></p>
+                    <p><strong>RS.489</strong></p>
+                </div>
+                <button class="checkout-btn">Proceed to Checkout</button>
+                <button class="continue-btn" onclick="window.location.href='front.html';">Continue Shopping</button>
+            </div>
+        </div>
+    </main>
+    <div id="checkoutModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Your order has been successfully processed. Done!</p>
+        </div>
+    </div>
+    
+    <footer>
+        <p>&copy; 2024 Book Store. All rights reserved.</p>
+    </footer>
+    
+
+   
+</body>
+<script>
+    var modal = document.getElementById("checkoutModal");
+    var btn = document.querySelector(".checkout-btn");
+    var span = document.querySelector(".close");
+    btn.onclick = function() {
+        modal.style.display = "block";
+    }
+    span.onclick = function() {
+        modal.style.display = "none";
+    }
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+</script>
+</html>

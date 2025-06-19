@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>best selling</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+    <style>
+        .book-card {
+            transition: transform 0.3s ease-in-out;
+        }
+        .book-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 4px 15px pink;
+        }
+        .rating {
+            color: #ffd700;
+        }
+        .hero-section {
+            background: linear-gradient(rgb(213, 189, 175), rgb(245, 235, 224)), url('/api/placeholder/1200/400');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 100px 0;
+        }
+        .category-pill {
+            transition: all 0.3s ease;
+        }
+        .category-pill:hover {
+            transform: scale(1.05);
+        }
+        .card-img-top{
+          transition: transform .6s ease;
+        }
+        .card-img-top:hover{
+          transform: scale(1.2);
+        }
+  
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand animate_animated animate_fadeIn" href="front.html">Book Tingle</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+        </div>
+    </div>
+</nav>
+
+<section class="hero-section animate_animated animate_fadeIn">
+    <div class="container text-center">
+        <h1 class="display-4 mb-4">This Week's Bestsellers</h1>
+        <p class="lead">Discover the books everyone's talking about</p>
+    </div>
+</section>
+<br>
+
+
+
+<div class="container mb-5">
+    <div class="row g-4">
+        
+        <div class="col-md-6 col-lg-3" style="cursor: pointer;">
+            <div class="card book-card animate_animated animate_fadeInUp" >
+                <img src="img3.jpg" class="card-img-top" alt="Book Cover">
+                <div class="card-body">
+                    <h5 class="card-title">End Game</h5>
+                    <p class="card-text text-muted">By David Baldacci</p>
+                    <div class="rating mb-2">★★★★★</div>
+                    <p class="card-text fw-bold">Rs299</p>
+                    <button class="btn btn-primary w-100">Add to Cart</button>
+                
+                  
+                </div>
+            </div>
+        </div>
+     
+
+        
+        <div class="col-md-6 col-lg-3"style="cursor: pointer;">
+            <div class="card book-card animate_animated animate_fadeInUp" style="animation-delay: 0.1s">
+                <img src="img4.jpg" class="card-img-top" alt="Book Cover">
+                <div class="card-body">
+                    <h5 class="card-title">Angelfall</h5>
+                    <p class="card-text text-muted">By Susan Ee</p>
+                    <div class="rating mb-2">★★★★★</div>
+                    <p class="card-text fw-bold">Rs325</p>
+                    <button class="btn btn-primary w-100">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3"style="cursor: pointer;">
+            <div class="card book-card animate_animated animate_fadeInUp" style="animation-delay: 0.2s">
+                <img src="img5.jpg" class="card-img-top" alt="Book Cover">
+                <div class="card-body">
+                    <h5 class="card-title">Little Boy Lost</h5>
+                    <p class="card-text text-muted">By J.P.Carter</p>
+                    <div class="rating mb-2">★★★★☆</div>
+                    <p class="card-text fw-bold">Rs700</p>
+                    <button class="btn btn-primary w-100">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="style=col-md-6 col-lg-3"style="cursor: pointer;">
+            <div class="card book-card animate_animated animate_fadeInUp" style="animation-delay: 0.3s">
+                <img src="img7.jpg" class="card-img-top" alt="Book Cover">
+                <div class="card-body">
+                    <h5 class="card-title">You Only Live Once</h5>
+                    <p class="card-text text-muted">By Stuti Changle</p>
+                    <div class="rating mb-2">★★★★★</div>
+                    <p class="card-text fw-bold">Rs400</p>
+                    <button class="btn btn-primary w-100">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+<footer>
+    <p>&copy; 2024 Book Store. All rights reserved.</p>
+</footer>
+
+</body>
+<script src="books.js"></script>
+</html>
